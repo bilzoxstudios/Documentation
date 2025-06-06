@@ -7,6 +7,16 @@
                  start-page="Welcome.md">
 
     <toc-element topic="Welcome.md"/>
-    <toc-element topic="Plugins-Documentations.md"/>
     <toc-element topic="Plugins-Versions.md"/>
+    <toc-element topic="Plugins-Documentations.md">
+        <toc-element topic="BilzJoinPlus.md">
+            <toc-element topic="Commands.md"/>
+            <toc-element topic="Configurations.md">
+                <toc-element topic="Menu.md"/>
+                <toc-element topic="JoinSounds.md"/>
+                <toc-element topic="JoinPlus.md"/>
+                <toc-element topic="JoinMessages.md"/>
+            </toc-element>
+        </toc-element>
+    </toc-element>
 </instance-profile>
