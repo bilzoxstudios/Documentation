@@ -19,4 +19,10 @@
         </variables>
     </build-profile>
 
+    <footer>
+        <copyright>Bilzox Studios (2024)</copyright>
+        <social type="discord" href="https://blog.jetbrains.com/writerside/"/>
+        <link href="https://stackoverflow.com">Support Discord</link>
+    </footer>
+
 </buildprofiles>
