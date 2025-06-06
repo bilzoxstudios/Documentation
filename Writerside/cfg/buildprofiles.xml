@@ -9,4 +9,14 @@
         <header-logo>bilzox.png</header-logo>
     </variables>
 
+    <build-profile instance="hi">
+        <variables>
+            <noindex-content>false</noindex-content>
+            <algolia-id>LA3F0QC2SQ</algolia-id>
+            <algolia-index>docs</algolia-index>
+            <algolia-api-key>fa877b41c9b3639b6a2afe35f54c3535</algolia-api-key>
+            <algolia-show-logo>true</algolia-show-logo>
+        </variables>
+    </build-profile>
+
 </buildprofiles>
