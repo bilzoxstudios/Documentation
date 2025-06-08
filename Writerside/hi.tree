@@ -7,9 +7,9 @@
                   start-page="Welcome.md">
 
     <toc-element topic="Welcome.md"/>
-    <toc-element topic="Plugins-Information.md"/>
+    <toc-element topic="Plugin-Information.md"/>
 
-    <toc-element topic="Plugins-Documentations.md">
+    <toc-element topic="Plugin-Documentations.md">
         <toc-element topic="BilzJoinPlus.md">
             <toc-element topic="BilzJoinPlus-Features.md"/>
             <toc-element topic="BilzJoinPlus-Commands.md"/>
