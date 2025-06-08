@@ -1,40 +1,41 @@
 # JoinSounds
+Create unique and exclusive sounds for privileged users
 
-### 🧩 Parameters
+### Support
+- Hex Color [Wiki](https://www.birdflop.com/resources/rgb/)
+- XSound [Wiki](https://github.com/CryptoMorin/XSeries/blob/master/core/src/main/java/com/cryptomorin/xseries/XSound.java)
+- MiniMessage Format [Wiki](https://docs.advntr.dev/minimessage/format)
 
-| Key                    | Description                                                            |
-|------------------------|------------------------------------------------------------------------|
-| `<id>`                 | Unique identifier for the sound (used internally).                     |
-| `display`              | The name shown in the GUI (supports color codes).                      |
-| `sound`                | A valid XSound enum name.                                              |
-| `permission`           | Custom permission required to unlock this sound.                       |
-| `status.no-permission` | Message shown when player lacks the permission.                        |
-| `status.click-select`  | Message shown when the player clicks to select this option.            |
-| `status.already-select`| Message shown when the sound is already selected.                      |
+| Usage        | Description                                                  |
+|--------------|--------------------------------------------------------------|
+| `<id>`       | The id is to identify the cosmetic in the commands           |
+| `display`    | Display the custom name of the cosmetic                      |
+| `permission` | Add a permission to the cosmetic to make it exclusive        |
+| `sound`      | Insert the sound you want and sound exclusive or mysterious  |
+| `status`     | Modify the messages of the placeholder variables             |
 
-### 🔎 Creation parameters in the .yml
-
+### Structure
 ```yaml
 joinsounds:
   <id>:
-    display: "<Display Name>"
-    sound: "<XSound Enum>"
-    permission: "<Permission Node>"
+    display: "Display custom text name"
+    permission: Insert permission
+    sound: "Insert new sound"
     status:
-      no-permission: "<No Permission Message>"
-      click-select: "<Click to Select Message>"
-      already-select: "<Already Selected Message>"
+      no-permission: "This is part of the placeholder (%\bjpstatus%)"
+      click-select: "This is part of the placeholder (%\bjpstatus%)"
+      already-select: "This is part of the placeholder (%\bjpstatus%)"
 ```
 
-### 💻 Example defaults of the .yml
-
+### Example cosmetics.yml
 ```yaml
-dragon:
-  display: "&aDragon"
-  sound: "ENTITY_ENDERDRAGON_GROWL"
-  permission: bilzjoinplus.joinsound.dragon
-  status:
-    no-permission: " &#FF3D3D⏩ You need rank &6&lBILZOX "
-    click-select: " &#95FF7E⏩ Left-click to select sound "
-    already-select: " &#FF3D3D⏩ Already selected sound "
+joinsounds:
+  cat:
+    display: "&aCat"
+    sound: "CAT_MEOW"
+    permission: bilzjoinplus.joinsound.cat
+    status:
+      no-permission: " &#FF3D3D⏩ You need rank &6&lBILZOX "
+      click-select: " &#95FF7E⏩ Left-click to select sound "
+      already-select: " &#FF3D3D⏩ Already selected sound "
 ```
