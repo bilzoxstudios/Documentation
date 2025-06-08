@@ -8,6 +8,11 @@
 
     <toc-element topic="Welcome.md"/>
     <toc-element topic="Plugin-Information.md"/>
+    <toc-element topic="Features-In-All-Plugins.md">
+        <toc-element topic="Colors.md"/>
+        <toc-element topic="XSeries.md"/>
+        <toc-element topic="BilzMenu.md"/>
+    </toc-element>
 
     <toc-element topic="Plugin-Documentations.md">
         <toc-element topic="BilzJoinPlus.md">
@@ -22,6 +27,11 @@
                 <toc-element topic="BilzJoinPlus-JoinMessages.md"/>
             </toc-element>
         </toc-element>
+    </toc-element>
+    <toc-element topic="Work-In-Progress.md">
+        <toc-element topic="BilzUtils.md"/>
+        <toc-element topic="BilzCount.md"/>
+        <toc-element topic="BilzSpawn.md"/>
     </toc-element>
 
 </instance-profile>

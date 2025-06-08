@@ -1,13 +1,6 @@
 # Features
 
-### Support
-- 1.16.X - 1.21.X [More](https://docs.bilzox.es/plugin-information.html)
-- Hex Colors [Birdflop](https://www.birdflop.com/resources/rgb/)
-- PlaceholderAPI [(Wiki)](https://wiki.placeholderapi.com/users/placeholder-list/)
-- MiniMessage [(Kyori)](https://docs.advntr.dev/minimessage/format)
-- XMaterial & XSound [(XSeries)](https://github.com/CryptoMorin/XSeries)
-
-### Cosmetics
+## Cosmetics
 - **JoinMessages**
   - Create custom messages when users with unique ranks or permissions enter
 

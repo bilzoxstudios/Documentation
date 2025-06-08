@@ -1,22 +1,11 @@
-# BilzMenu
+# 📁 BilzMenu
 ![bilzmenu-api](https://img.shields.io/badge/bilzmenu-0.2.2-blue) ![Status](https://img.shields.io/badge/status-beta-yellow)
-
-<warning>
-Use this section to create multiple pages of your cosmetics, not for other things
-</warning>
-
-### How do I create another menu?
-Go to the `BilzJoinPlus/menus/` folder and create a `<name>.yml`
-
-You have 2 options to load the new menu
-- `/bilzjoinplus reload menus`
-- `/bilzjoinplus menu reload <name>.yml`
 
 ### Menu structure
 - Hex Color [Birdflop](https://www.birdflop.com/resources/rgb/)
-- XSound [XSeries Github](https://github.com/CryptoMorin/XSeries/blob/master/core/src/main/java/com/cryptomorin/xseries/XSound.java)
+- XSound [Github](https://github.com/CryptoMorin/XSeries/blob/master/core/src/main/java/com/cryptomorin/xseries/XSound.java)
 - MiniMessage Format [Kyori](https://docs.advntr.dev/minimessage/format)
-- PlaceholderAPI [BilzJoinAPI](https://docs.bilzox.es/bilzjoinplus-placeholders.html) & [Wiki](https://wiki.placeholderapi.com/users/placeholder-list/)
+- PlaceholderAPI [List](https://wiki.placeholderapi.com/users/placeholder-list/)
 
 | Material                 |                                                                                                                                                  |
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|

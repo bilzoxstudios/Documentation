@@ -16,12 +16,12 @@ database:
 ### JoinItem
 Customize the default item to open cosmetics
 
-| Material                 |                                                                                                                      |
-|--------------------------|----------------------------------------------------------------------------------------------------------------------|
-| XMaterial                | [Wiki](https://github.com/CryptoMorin/XSeries/blob/master/core/src/main/java/com/cryptomorin/xseries/XMaterial.java) |
-| `basehead-`              | Custom heads base64                                                                                                  |
-| `url- `                  | Custom heads from textures.minecraft.net                                                                             |
-| `skull-%\player_name%  ` | The player's head appears                                                                                            |
+| Types of Materials      |                                                                                                                      |
+|-------------------------|----------------------------------------------------------------------------------------------------------------------|
+| XMaterial               | [Wiki](https://github.com/CryptoMorin/XSeries/blob/master/core/src/main/java/com/cryptomorin/xseries/XMaterial.java) |
+| `basehead-<64>`         | Custom heads base64                                                                                                  |
+| `skull-%\player_name% ` | The player's head appears                                                                                            |
+| `url-<url> `            | Custom heads from textures.minecraft.net                                                                             |
 
 ```YAML
 join-item:

@@ -2,9 +2,9 @@
 Create unique and exclusive sounds for privileged users
 
 ### Support
-- Hex Color [Wiki](https://www.birdflop.com/resources/rgb/)
-- XSound [Wiki](https://github.com/CryptoMorin/XSeries/blob/master/core/src/main/java/com/cryptomorin/xseries/XSound.java)
-- MiniMessage Format [Wiki](https://docs.advntr.dev/minimessage/format)
+- Hex Color [Birdflop](https://www.birdflop.com/resources/rgb/)
+- XSound [XSeries Github](https://github.com/CryptoMorin/XSeries/blob/master/core/src/main/java/com/cryptomorin/xseries/XSound.java)
+- MiniMessage Format [Kyori](https://docs.advntr.dev/minimessage/format)
 
 | Usage        | Description                                                  |
 |--------------|--------------------------------------------------------------|

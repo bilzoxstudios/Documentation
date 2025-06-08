@@ -2,9 +2,9 @@
 Create personalized messages for privileged users
 
 ### Support
-- Hex Color [Wiki](https://www.birdflop.com/resources/rgb/)
-- MiniMessage Format [Wiki](https://docs.advntr.dev/minimessage/format)
-- PlaceholderAPI [BilzJoinAPI](https://docs.bilzox.es/bilzjoinplus-placeholders.html) & [Wiki](https://wiki.placeholderapi.com/users/placeholder-list/)
+- Hex Color [Birdflop](https://www.birdflop.com/resources/rgb/)
+- MiniMessage Format [Kyori](https://docs.advntr.dev/minimessage/format)
+- PlaceholderAPI [BilzJoinPlus](https://docs.bilzox.es/bilzjoinplus-placeholders.html) & [Wiki](https://wiki.placeholderapi.com/users/placeholder-list/)
 
 | Usage        | Description                                           |
 |--------------|-------------------------------------------------------|
