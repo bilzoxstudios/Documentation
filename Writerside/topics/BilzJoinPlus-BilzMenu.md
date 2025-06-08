@@ -14,10 +14,17 @@ You have 2 options to load the new menu
 
 ### Menu structure
 - Hex Color [Wiki](https://www.birdflop.com/resources/rgb/)
-- XMaterial [Wiki](https://github.com/CryptoMorin/XSeries/blob/master/core/src/main/java/com/cryptomorin/xseries/XMaterial.java)
 - XSound [Wiki](https://github.com/CryptoMorin/XSeries/blob/master/core/src/main/java/com/cryptomorin/xseries/XSound.java)
 - MiniMessage Format [Wiki](https://docs.advntr.dev/minimessage/format)
 - PlaceholderAPI [BilzJoinAPI](https://docs.bilzox.es/bilzjoinplus-placeholders.html) & [Wiki](https://wiki.placeholderapi.com/users/placeholder-list/)
+
+| Material                 |                                                                                                                                                  |
+|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| XMaterial                |  [Wiki](https://github.com/CryptoMorin/XSeries/blob/master/core/src/main/java/com/cryptomorin/xseries/XMaterial.java)  |
+| `basehead-`              | Custom heads base64                                                                                                                              |
+| `url- `                  | Custom heads from textures.minecraft.net                                                                                                         |
+| `skull-%\player_name%  ` | The player's head appears                                                                                                                        |
+
 ```YAML
 menu:
   title: 'Name of your menu'
