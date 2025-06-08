@@ -1,44 +1,46 @@
 # JoinMessages
+Create personalized messages for privileged users
 
-### 🧩 Parameters
+### Support
+- Hex Color [Wiki](https://www.birdflop.com/resources/rgb/)
+- MiniMessage Format [Wiki](https://docs.advntr.dev/minimessage/format)
+- PlaceholderAPI [BilzJoinAPI](https://docs.bilzox.es/bilzjoinplus-placeholders.html) & [Wiki](https://wiki.placeholderapi.com/users/placeholder-list/)
 
-| Key                    | Description                                                            |
-|------------------------|------------------------------------------------------------------------|
-| `<id>`                 | Unique identifier for the message (used internally).                   |
-| `display`              | The name shown in the GUI (supports color codes).                      |
-| `permission`           | Permission node required to use this join message.                     |
-| `message`              | A list of formatted message lines (supports color codes and placeholders). |
-| `status.no-permission` | Message shown when player lacks the permission.                        |
-| `status.click-select`  | Message shown when the player clicks to select this option.            |
-| `status.already-select`| Message shown when the message is already selected.                    |
+| Usage        | Description                                           |
+|--------------|-------------------------------------------------------|
+| `<id>`       | The id is to identify the cosmetic in the commands    |
+| `display`    | Display the custom name of the cosmetic               |
+| `permission` | Add a permission to the cosmetic to make it exclusive |
+| `message`    | Place an exclusive and modern message                 |
+| `status`     | Modify the messages of the placeholder variables      |
 
-### 🔎 Creation parameters in the .yml
-
+### Structure
 ```yaml
 joinmessages:
   <id>:
-    display: "<Display Name>"
-    permission: "<Permission Node>"
+    display: "Display custom text name"
+    permission: Insert permission
     message:
-      - "<Line 1 of the message>"
-      - "<Line 2 (optional)>"
+      - "Insert custom text"
     status:
-      no-permission: "<No Permission Message>"
-      click-select: "<Click to Select Message>"
-      already-select: "<Already Selected Message>"
+      no-permission: "This is part of the placeholder (%\bjpstatus%)"
+      click-select: "This is part of the placeholder (%\bjpstatus%)"
+      already-select: "This is part of the placeholder (%\bjpstatus%)"
 ```
 
-### 💻 Example defaults of the .yml
-
+### Example cosmetics.yml
 ```yaml
 joinmessages:
   halloween:
     display: "&eHalloween"
     permission: bilzjoinplus.joinmessage.halloween
     message:
-      - "&#FF7518🎃 Trick or Treat! &e(player_name) &#FF7518rises from the shadows! &#FF7518👻"
+      - "&#FF7518🎃 Trick or Treat! &e%\player_name% &#FF7518rises from the shadows! &#FF7518👻"
     status:
       no-permission: " &#FF3D3D⏩ You need rank &6&lBILZOX "
       click-select: " &#95FF7E⏩ Left-click to select message "
       already-select: " &#FF3D3D⏩ Already selected message "
 ```
+
+### Preview
+![Preview](JoinMessagePreview.png)

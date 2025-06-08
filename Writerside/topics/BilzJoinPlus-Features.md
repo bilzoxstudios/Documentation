@@ -1,13 +1,13 @@
 # Features
 
-**Support**
+### Support
 - 1.16.X - 1.21.X
 - Hex Colors
-- PlaceholderAPI [(Wiki)](https://docs.bilzox.es/placeholders.html)
+- PlaceholderAPI [(Wiki)](https://docs.bilzox.es/bilzjoinplus-placeholders.html)
 - MiniMessage [(Kyori)](https://docs.advntr.dev/minimessage/format)
 - XMaterial & XSound [(XSeries)](https://github.com/CryptoMorin/XSeries)
 
-### Description
+### Cosmetics
 - **JoinMessages**
   - Create custom messages when users with unique ranks or permissions enter
 

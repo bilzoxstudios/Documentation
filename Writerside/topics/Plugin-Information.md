@@ -10,10 +10,10 @@
 | ♻️ **Previous version** | Not available now, but previous versions exist. |
 
 
-|           | Free | Support                   | 1.8 - 1.13     | 1.16.X | 1.20.X | 1.21 - 1.21.4 | 1.21.5 |
-|-----------|-----|---------------------------|----------------|--------|--------|---------------|--------|
-| BilzJoin  | ✅   | Spigot, Paper             | ♻️ (last v1.0) | ✅      | ✅      | ✅             | ✅      |
-| BilzJoin+ | 🛒    | Spigot, Paper, Pufferfish | ❌ | ✅      | ✅      | ✅             | ✅      |
+|           | Free | Support / Tested                   | 1.8 - 1.13     | 1.16.X | 1.20.X | 1.21 - 1.21.4 | 1.21.5 |
+|-----------|-----|------------------------------------|----------------|--------|--------|---------------|--------|
+| BilzJoin  | ✅   | Spigot, Paper                      | ♻️ (last v1.0) | ✅      | ✅      | ✅             | ✅      |
+| BilzJoin+ | 🛒    | Spigot, Paper, Pufferfish, USpigot | ❌ | ✅      | ✅      | ✅             | ✅      |
 
 ### Some Notes
 - Mostly all plugins are tested by users on different softwares

@@ -1,47 +1,52 @@
 # JoinPlus
+Create titles and actionbars for users with permissions
 
-### 🧩 Parameters
+### Support
+- Hex Color [Wiki](https://www.birdflop.com/resources/rgb/)
+- MiniMessage Format [Wiki](https://docs.advntr.dev/minimessage/format)
+- PlaceholderAPI [BilzJoinAPI](https://docs.bilzox.es/bilzjoinplus-placeholders.html) & [Wiki](https://wiki.placeholderapi.com/users/placeholder-list/)
 
-| Key                     | Description                                                              |
-|-------------------------|--------------------------------------------------------------------------|
-| `<id>`                  | Unique identifier for the effect (used internally).                      |
-| `display`               | The name shown in the GUI (supports color codes).                        |
-| `permission`            | Permission node required to use this effect.                             |
-| `structure.title`       | Title displayed to all players when joining.                             |
-| `structure.subtitle`    | Subtitle displayed below the title.                                      |
-| `structure.actionbar`   | Message shown in the action bar.                                         |
-| `status.no-permission`  | Message shown when the player lacks the permission.                      |
-| `status.click-select`   | Message shown when the player clicks to select this option.              |
-| `status.already-select` | Message shown when the effect is already selected.                       |
+| Usage                 | Description                                            |
+|-----------------------|--------------------------------------------------------|
+| `<id>`                | The id is to identify the cosmetic in the commands     |
+| `display`             | Display the custom name of the cosmetic                |
+| `permission`          | Add a permission to the cosmetic to make it exclusive  |
+| `structure.title`     | Customize the text that is displayed on the screen     |
+| `structure.subtitle`  | Customize the subtitle that is displayed on the screen |
+| `structure.actionbar` | Modify the message that appears above the hotbar       |
+| `status`              | Modify the messages of the placeholder variables       |
 
-### 🔎 Creation parameters in the .yml
-
+### Structure
 ```yaml
 joinplus:
   <id>:
-    display: "<Display Name>"
-    permission: "<Permission Node>"
+    display: "Display custom text name"
+    permission: Insert permission
     structure:
-      title: "<Title Message>"
-      subtitle: "<Subtitle Message>"
-      actionbar: "<Actionbar Message>"
+      title: "Insert a title"
+      subtitle: "Insert subtitle"
+      actionbar: "Insert actionbar"
     status:
-      no-permission: "<No Permission Message>"
-      click-select: "<Click to Select Message>"
-      already-select: "<Already Selected Message>"
+      no-permission: "This is part of the placeholder (%\bjpstatus%)"
+      click-select: "This is part of the placeholder (%\bjpstatus%)"
+      already-select: "This is part of the placeholder (%\bjpstatus%)"
 ```
-### 💻 Example defaults of the .yml
 
+### Example cosmetics.yml
 ```yaml
-sakura:
-  display: "&d&lSakura"
-  permission: bilzjoinplus.joinplus.sakura
-  structure:
-    title: "&#FF85D4🌺 &#FFADE2(player_name) &#FF85D4🌺"
-    subtitle: "&fcherry blossom fell into the lobby"
-    actionbar: "&d🌺 Say hello to &f &d🌺"
-  status:
-    no-permission: " &#FF3D3D⏩ You need rank &6&lBILZOX "
-    click-select: " &#95FF7E⏩ Left-click to select plus "
-    already-select: " &#FF3D3D⏩ Already selected plus "
+joinplus:
+  zeus:
+    display: "&cZeus"
+    permission: bilzjoinplus.joinplus.zeus
+    structure:
+      title: "&e&l⚡ &6%\player_name% &e&l⚡"
+      subtitle: "&fThe heir of Zeus entered"
+      actionbar: "&eGreet the heir of Zeus: &6%\player_name%"
+    status:
+      no-permission: " &#FF3D3D⏩ You need rank &6&lBILZOX "
+      click-select: " &#95FF7E⏩ Left-click to select plus "
+      already-select: " &#FF3D3D⏩ Already selected plus "
 ```
+
+### Preview
+![Preview](JoinPlusPreview.png)
