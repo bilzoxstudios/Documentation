@@ -29,6 +29,8 @@
         </toc-element>
     </toc-element>
     <toc-element topic="Work-In-Progress.md">
+        <toc-element topic="BilzGets.md"/>
+        <toc-element topic="BilzBox.md"/>
         <toc-element topic="BilzUtils.md"/>
         <toc-element topic="BilzCount.md"/>
         <toc-element topic="BilzSpawn.md"/>
