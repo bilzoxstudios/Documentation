@@ -32,6 +32,8 @@
         <toc-element topic="BilzGets.md"/>
         <toc-element topic="BilzBox.md"/>
         <toc-element topic="BilzUtils.md"/>
+        <toc-element topic="BilzTags.md"/>
+        <toc-element topic="BilzNews.md"/>
         <toc-element topic="BilzCount.md"/>
         <toc-element topic="BilzSpawn.md"/>
     </toc-element>
